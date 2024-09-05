@@ -35,4 +35,4 @@ def get_category() :
     return get_category()
 
 def get_description() :
-    return print("Enter description (optional) : ")
+    return input("Enter description (optional) : ")
