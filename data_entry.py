@@ -27,12 +27,12 @@ def get_amount() :
         return get_amount()
 
 def get_category() :
-    category = input("Enter category , ('I' for Income or 'E' for Expenses : )").upper()
+    category = input("Enter category , ('I' for Income or 'E' for Expenses) : ").upper()
     if category in CATEGORIES:
         return CATEGORIES[category]
     
-    print("Invalid Category , Enter 'I' for Income or 'E' for Expense")
+    print("Invalid Category , Enter 'I' for Income or 'E' for Expense. ")
     return get_category()
 
 def get_description() :
-    pass
+    return print("Enter description (optional) : ")
