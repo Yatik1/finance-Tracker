@@ -2,6 +2,7 @@ import pandas as pd
 import csv
 from datetime import datetime
 from data_entry import get_amount,get_category,get_date,get_description
+import matplotlib.pyplot as plt
 
 class CSV:
     CSV_FILE = "finance_data.csv"
@@ -55,6 +56,22 @@ class CSV:
             print(f"Net Saving : ${(total_income - total_expense):.2f}")
         
         return filtered_df
+    
+    @classmethod
+    def plot_transaction(df):
+        df.set_index("date" , inplace=True)
+        income_df = (df[df["category"] == "Income"].resample("D").sum().reindex(df.index , fill_value = 0))
+        expense_df = (df[df["category"] == "Expense"].resample("D").sum().reindex(df.index , fill_value = 0))
+
+        plt.figure(figsize=(10,5))
+        plt.plot(income_df.index , income_df["amount"] , label="Income",color="g")
+        plt.plot(expense_df.index , income_df["amount"] , label="Expense",color="r")
+        plt.xlabel("Date")
+        plt.ylabel("Amount")
+        plt.title("Income and Expense over time.")
+        plt.legend()
+        plt.grid(True)
+        plt.show()
 
 
 def add():
