@@ -1,5 +1,31 @@
 date,amount,category,description
-05-09-2024,125,Income,Salary
-05-09-2024,12000.0,Income,
-05-09-2024,10000.0,Income,Side hustle
-06-09-2024,300.0,Income,work
+01-09-2024,2000,Income,Salary
+02-09-2024,150,Expense,Groceries
+03-09-2024,50,Expense,Transport
+04-09-2024,500,Income,Freelance Work
+05-09-2024,300,Expense,Utilities
+06-09-2024,120,Expense,Dining Out
+07-09-2024,1000,Income,Side Project
+08-09-2024,200,Expense,Shopping
+09-09-2024,400,Expense,Insurance
+10-09-2024,1500,Income,Project Bonus
+11-09-2024,250,Expense,Entertainment
+12-09-2024,100,Expense,Fuel
+13-09-2024,3000,Income,Freelance Payment
+14-09-2024,800,Expense,Rent
+15-09-2024,50,Expense,Coffee
+16-09-2024,750,Income,Consultancy
+17-09-2024,500,Expense,Car Maintenance
+18-09-2024,1200,Income,Gift
+19-09-2024,100,Expense,Internet Bill
+20-09-2024,900,Income,Investment Returns
+21-09-2024,350,Expense,Phone Bill
+22-09-2024,80,Expense,Subscription
+23-09-2024,450,Income,Part-time Work
+24-09-2024,220,Expense,Medical
+25-09-2024,150,Expense,Groceries
+26-09-2024,2000,Income,Salary
+27-09-2024,600,Expense,Vacation
+28-09-2024,300,Income,Freelance Work
+29-09-2024,400,Expense,Household Items
+30-09-2024,90,Expense,Transport
